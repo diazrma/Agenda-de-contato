@@ -1,0 +1,30 @@
+{
+  "name": "agendadecontato",
+  "version": "1.0.2",
+  "description": "Agenda de Contato",
+  "main": "app.js",
+  "build": {
+    "appId": "com.rodrigo.agenda",
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": ["nsis"],
+      "icon": "assets/x.ico"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Cardoso",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.1.0",
+    "electron-builder": "^22.7.0"
+  },
+
+  "dependencies": {}
+}
