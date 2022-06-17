@@ -22,7 +22,7 @@
   "author": "Rodrigo Cardoso",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^9.1.0",
+    "electron": "^15.5.5",
     "electron-builder": "^22.7.0"
   },
 
